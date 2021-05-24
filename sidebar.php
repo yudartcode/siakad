@@ -16,8 +16,8 @@
                     <img src="assets/images/users/avatar.jpg" alt="John Doe"/>
                 </div>
                 <div class="profile-data">
-                    <div class="profile-data-name">John Doe</div>
-                    <div class="profile-data-title">Web Developer/Designer</div>
+                    <div class="profile-data-name"><?= $_SESSION['nama'] ?></div>
+                    <div class="profile-data-title"><?= $_SESSION['level'] ?></div>
                 </div>
                 <div class="profile-controls">
                     <a href="pages-profile.html" class="profile-control-left"><span class="fa fa-info"></span></a>
